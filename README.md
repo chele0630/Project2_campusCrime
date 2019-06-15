@@ -18,12 +18,9 @@
 
 # Team Crime
 
-Team Crime chose a project that would examine the occurances of crimes on college campuses in the US.  We will examine the number of crimes
-committed on college camuses by state and the strictness of the gun control laws in those states to determine in there is a possible 
-correlation between gun control and violence on US campuses.  Specifically, we are looking to answer the question: Do states with stricter 
-gun laws have less crime?  
+Team Crime chose a project that would examine the occurances of crimes on college campuses in the US.  We will examine the number of crimes committed on college camuses by state and the strictness of the gun control laws in those states to determine in there is a possible correlation between gun control and violence on US campuses.  Specifically, we are looking to answer the question: Do states with stricter gun laws have less crime?  
 
-We will be using campus violence data from https://ope.ed.gov/campussafety.  This data will give information on and gun control data from www.gunstocarry.com/gun-laws-state/, we will create a product information table, a product review table, a product review stat table and a trending products table.  We will merge information from these various tables into one in order to create a data display that is easy to reference for the purpose of deciding which products to purchase.  
+We will be using campus violence data from https://ope.ed.gov/campussafety to give us information on crime activity on US gege campuses from    from www.gunstocarry.com/gun-laws-state/, This data will give information on the strictness of gun control laws by state.we will create a product information table, a product review table, a product review stat table and a trending products table.  We will merge information from thes tables into one in order to create a data display that is easy to reference for the purpose of deciding which products to purchase.  
 
 
 ## Purpose of the Analysis
@@ -90,4 +87,4 @@ Mabel Gutierrez- Initial Work - [SMU Team Crime- Project 2](https://github.com/m
 
 Velindia Lucas - Initial Work - [SMU Team Crime- Project 2](https://github.com/chele0630)
 
-Zeinab  - Initial Work - [SMU Team Crime- Project 2](https://github.com/)
+Zeinab  - Initial Work - [SMU Team Crime- Project 2](https://github.com/Massudi09)
