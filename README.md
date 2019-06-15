@@ -70,12 +70,9 @@ import requests
 
 ## API Calls
 
-* Products API call:
+* API call:
 	http://api.walmartlabs.com/v1/items/12417832?apiKey={apiKey}&lsPublisherId={Your LinkShare Publisher Id}&format=json
-* Product Review API call:
-	http://api.walmartlabs.com/v1/reviews/33093101?apiKey={apiKey}&lsPublisherId={Your LinkShare Publisher Id}&format=json
-* Trending API call:
-	http://api.walmartlabs.com/v1/trends?apiKey={apiKey}&lsPublisherId=xyz&format=json
+
 
 
 ## Authors
