@@ -20,12 +20,12 @@
 
 Team Crime chose a project that would examine the occurances of crimes on college campuses in the US.  We will examine the number of crimes committed on college camuses by state and the strictness of the gun control laws in those states to determine in there is a possible correlation between gun control and violence on US campuses.  Specifically, we are looking to answer the question: Do states with stricter gun laws have less crime?  
 
-We will be using campus violence data from https://ope.ed.gov/campussafety to give us information on crime activity on US college campuses and www.gunstocarry.com/gun-laws-state/, to give information on the strictness of gun control laws by state. We will create 3 visualizations to answer our question.   One willo be a bubble chart to compare the total number of crimes in each state for each of the 3 years.  This will allow us to find any notable trends.  Another visualization will be a heat map showing the frequency of crime on college campus in the US.  The final visualization will be a base map with markers that, when selected, will show the gun law scale.  After evaluating this information, we will be able to determine the story being told through the data and answer our inital question.
+We will be using campus violence data from https://ope.ed.gov/campussafety to give us information on crime activity on US college campuses and www.gunstocarry.com/gun-laws-state/, to give information on the strictness of gun control laws by state. We will create 3 visualizations to answer our question.   One will be a bubble chart to compare the total number of crimes in each state for each of the 3 years.  This will allow us to find any notable trends.  Another visualization will be a heat map showing the frequency of crime on college campus in the US.  The final visualization will be a base map with markers that, when selected, will show the gun law scale.  
 
 
 ## Purpose of the Analysis
 
-Our primary purpose is to gather data using the Walmart API to determine if the random items that were selected should be purchased by the consumer.  Shoppers look for a good value (we will information on prices/sales) and quality (we will use information on consumer product reviews).  This data will provide the pertinent information to the shopper when determining if they will make the purchase of the item. 
+Our primary purpose is to gather data using our sources determine if there is a correlation between college campus violence and gun control laws in US states.   After evaluating this information, we will be able to determine the story being told through the data and answer our inital question.
 
 
 ## Key Documents
@@ -35,9 +35,9 @@ The following data sets were used throughout the project.
 ### Campus Crime Data
 [![INSERT YOUR GRAPHIC HERE](https://github.com/mabel912/ETL-Project-Shop-Smarter/blob/master/ProductList.png)]()
 
-
 ### Gun Control Data
-[![INSERT YOUR GRAPHIC HERE](https://)]()
+[![
+INSERT YOUR GRAPHIC HERE](https://)]()
 
 
 ### Bar Chart
@@ -46,6 +46,7 @@ The following data sets were used throughout the project.
 
 ### Heatmap
 [![INSERT YOUR GRAPHIC HERE](https://)]()
+
 
 ### Base Map w/markers
 [![INSERT YOUR GRAPHIC HERE](https://)]()
