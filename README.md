@@ -82,7 +82,7 @@ import requests
 
 ## Authors
 
-Ellise Carpenter - Initial Work - [SMU Team Crime- Project 2](https://github.com/)
+Ellise Carpenter - Initial Work - [SMU Team Crime- Project 2](https://github.com/ellisec)
 
 Mabel Gutierrez- Initial Work - [SMU Team Crime- Project 2](https://github.com/mabel912)
 
@@ -90,4 +90,4 @@ Velindia Lucas - Initial Work - [SMU Team Crime- Project 2](https://github.com/c
 
 Rohith  - Initial Work - [SMU Team Crime- Project 2](https://github.com/)
 
-Zeinab  - Initial Work - [SMU Team Crime- Project 2](https://github.com/)
+Zeinab Bhattaram - Initial Work - [SMU Team Crime- Project 2](https://github.com/)
