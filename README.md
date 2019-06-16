@@ -62,9 +62,10 @@ INSERT YOUR GRAPHIC HERE](https://)]()
 Jupyter notebooks was used. The list of dependencies are as follows:
 
 ```sh
-import pandas as pd
-import json
+import os
+from bs4 import BeautifulSoup as bs
 import requests
+import pandas as pd
 
 ```
 
