@@ -1,5 +1,5 @@
 # College Campus Crimes- Project 2
-#[![INSERT YOUR GRAPHIC HERE](https://calvin.edu/dotAsset/0fb469bb-8204-4e24-9d91-d14811252d39.jpg)]()
+#[![INSERT YOUR GRAPHIC HERE](https://www.greatschools.org/gk/wp-content/uploads/2012/12/How-can-we-stop-school-violence.jpg)]()
 
 
 <!-- TABLE OF CONTENTS -->
