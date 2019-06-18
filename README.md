@@ -10,7 +10,6 @@
 * [Key Documents](#key-documents)
 * [Findings](#findings)
 * [Coding Style](#coding-style)
-* [API Calls](#api-calls)
 * [Coding Documentation](#coding-documentation)
 * [Authors](#authors)
 * [Acknowledgments](#acknowledgments)
@@ -68,12 +67,6 @@ import requests
 import pandas as pd
 
 ```
-
-## API Calls
-
-* API call:
-	http://api.walmartlabs.com/v1/items/12417832?apiKey={apiKey}&lsPublisherId={Your LinkShare Publisher Id}&format=json
-
 
 
 ## Authors
