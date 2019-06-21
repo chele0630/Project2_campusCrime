@@ -233,14 +233,9 @@ var baseMaps = {
     Dark: dark
   };
   
-//   // Overlays that may be toggled on or off
-//   var overlayMaps = {
-//     Cities: cityLayer
-//   };
-var myMarker = L.marker([40.7128, 74.0060]).addTo(map);
 
-//L.control.layers(baseMaps).addTo(myMap);
 L.control.layers(baseMaps).addTo(myMap);
+
 // var stateMarkers = [];
 
 // for (var i = 0; i < mergedData.length; i++) {
