@@ -77,7 +77,8 @@ Map API call: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=
 ## Coding Style
 
 Javascript programming language was used.
-*Python programming language was used, the list of dependencies are as follows:
+
+Python programming language was used, the list of dependencies are as follows:
 
 ```sh
 import os
