@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title> Project 2 - Group 6 </title>
+
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script crossorigin="anonymous" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	  crossorigin="anonymous"></script>
+	
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+
+</head>
+<body>
+    <div class="page-background">
+            <div class="container-fluid bg-1 text-center" style="background-color: rgb(49, 148, 148); color: white">
+           
+                    <h3>College Campus Crime vs. Gun Control Laws</h3> 
+            </div>
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default fixed-top">
+                    <div class="container-fluid">
+                            
+                        <div class="navbar-header fixed-top">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false"
+                            aria-controls="navbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
+                            <ul class="nav navbar-nav fixed-top">
+                                <li class="active"><a href="index.html">Summary <span class="sr-only">(current)</span></a></li>
+                            </ul> 
+                            <ul class="nav navbar-nav navbar-right">      
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="baseMap.html">Base map</a>
+                                            </li>
+                                            <li>
+                                                <a href="barGraph.html">Bar Graph</a>
+                                            </li>
+                                            <li>
+                                                <a href="heatMap.html">Heatmap</a>
+                                            </li>
+                                          
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a href="index.html">Methodology</a>
+                                </li>
+                                <li>
+                                    <a href="index.html">Data</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="col-md-12">
+
+            
+                <div class="col-md-12">
+                        
+                    <div class="row">
+                       
+                        
+                        <h1 class="light-green_text" style="padding-left: 75px; padding-right:75px;">
+                            <b>Recent Data From The Government Suggests That Strict Gun Laws Have Little Impact On Crime Rate On College Campus </b>
+                        </h1>
+                            
+                     
+<br>
+<br>
+                        <div id="hmap" style="padding-top: 500px; padding-left:100px; padding-right:75px;"></div>
+                                <br>                                  
+                                <h4 style="padding-top: 2px; padding-left:200px; padding-right:75px;"> Crime incidents tend to be more prevalent in bigger and denser states regardless of state gun laws.</h4>  
+                        </div>
+                </div>
+                <div class="col-md-12">
+                        <div class="container" style="width:1200px">
+                                <div class="col-md-12" >
+                                    <div class="row">
+                                        <h1 class="light-green_text" style="padding-bottom:30px; ">
+                                            <b>And The Winner Is...</b>
+                                        </h1>
+                                            <img  alt="Latitude vs Longitude" class="pull-left" height="300" width="600" style="padding-right:50px"src="https://washingtonpost.com/graphics/2018/opinions/gun-control-that-works/images/TelnaesFINAL.jpg" >
+                                            
+                                            <p>Our primary purpose is to gather data using our sources to determine if there is a correlation between college campus violence and gun control laws in US states. 
+                                                    After evaluating this information, we will be able to determine the story being told through the data and answer our initial question.
+                                                    Is there a correlation between state gun laws and crime on college campuses?
+                                                    
+                <br>
+                <br>
+                Our primary purpose is to gather data using our sources to determine if there is a correlation between college campus violence and gun control laws in US states. 
+                After evaluating this information, we will be able to determine the story being told through the data and answer our initial question.
+                Is there a correlation between state gun laws and crime on college campuses?
+                
+                <br>                            
+                <br></ul>
+                <br>    
+                                                This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any 
+                                                trends and correlations witnessed.
+                                                <br>                                  
+                                            
+                                        </div>
+                                </div>
+                                <div class="container" style="width:1200px">
+                                        <div class="col-md-12" >
+                                            <div class="row">
+
+                                                    <h3 class="light-green_text" style="padding-bottom:30px; padding-left: 250px; padding-top:50px; color: gray; font-family: Avenir;">
+                                                            <b>Bottom 5 : States with the worst College Campus Crime Rate </b>
+                                                            
+                                                        </h3>
+
+                                                    <img  alt="Latitude vs Longitude" height="250" width="1100" style="padding-left:50px"src="../static/img/bottom5.png" >
+
+                                                    <h3 class="light-green_text" style="padding-bottom:30px; padding-left: 250px; padding-top:50px; color: gray; font-family: Avenir;">
+                                                            <b>Top 5 : States with the safest College Campuses </b>
+                                                            
+                                                        </h3>
+
+                                                    <img  alt="Latitude vs Longitude" height="200" width="1100" style="padding-left:5px"src="../static/img/top5.png" >
+                                                        <p></p>
+
+                                                                                       <h3 class="light-green_text" style="padding-bottom:30px; padding-left: 400px; padding-top:50px; color: gray; font-family: Avenir;">
+                                                            <b>CURRENT STATE OF CAMPUS CARRY </b>
+                                                            
+                                                        </h3>
+
+                                                    <img  alt="Latitude vs Longitude" height="450" width="1100" style="padding-left:25px"src="https://www.thetrace.org/wp-content/uploads/2017/04/State-of-Campus-Carry-Map-1.png" >
+                                                        <p>.</p>
+
+                                                <h2 class="light-green_text" style="padding-bottom:30px; padding-left: 150px; color: rgb(224, 106, 28); font-family: Avenir;">
+                                                    <b>Indiana: What other states can learn from "The Hoosier"</b>
+                                                    
+                                                </h2>
+                                                <p><p>The purpose of this project was to analyze the weather the closer it is to the equator. To accomplish this analysis, we first pulled data 
+                                                        from the OpenWeatherMap API to assemble a dataset of over 500 cities.he purpose of this project was to analyze the weather the closer it is to the equator. To accomplish this analysis, we first pulled data 
+                                                                from the OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
+                                                    <img  alt="Latitude vs Longitude" class="pull-right" height="300" width="400" style="padding-right:50px" src="../static/img/indiana.png" >
+                                                    
+                                                    <p>The purpose of this project was to analyze the weather the closer it is to the equator. To accomplish this analysis, we first pulled data 
+                                                        from the OpenWeatherMap API to assemble a dataset of over 500 cities.
+                        <br>
+                        <br>
+                                                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factor we looked into included: temperature, cloudiness, wind speed and humidity.
+                        <br>                            
+                        <br></ul>he purpose of this project was to analyze the weather the closer it is to the equator. To accomplish this analysis, we first pulled data 
+                        from the OpenWeatherMap API to assemble a dataset of over 500 cities.
+<br>
+<br>
+                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factor we looked into included: temperature, cloudiness, wind speed and humidity.
+<br>                            
+<br></ul>
+                        <br>    
+                                                        This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any 
+                                                        trends and correlations witnessed.
+                                                        <br>                                  
+                                                    
+                                                </div>
+                                        </div>
+        
+                    
+                                <br>
+                                <br>
+                                
+                                      
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="container-fluid" style="padding-bottom: 100px"> 
+                                           
+    <footer style="background-color: white; padding-bottom:100px">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+            <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+             integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+             crossorigin=""></script>
+               <!-- D3 -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+            <!-- MomentJS -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+          
+            <!-- Leaflet JavaScript -->
+            <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+            integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+            crossorigin=""></script>
+            <!-- polyfill.io is library for using newer JavaScript features in older browers (such as Object.assign) -->
+            <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+            <!-- API Key -->
+            <script type="text/javascript" src="../static/js/config.js"></script>
+          
+          
+            <script type="text/javascript" src="../static/js/logic_heatmap.js"></script>
+          
+    </footer>
+</div>
+</html>
