@@ -11,6 +11,7 @@
 * [Findings](#findings)
 * [Coding Style](#coding-style)
 * [Coding Documentation](#coding-documentation)
+* [API Calls](#API-calls)
 * [Authors](#authors)
 * [Acknowledgments](#acknowledgments)
 
@@ -66,7 +67,7 @@ The following data sets were used throughout the project.
 ## API Calls
 
 * Map API call:
-	http://api.walmartlabs.com/v1/items/12417832?apiKey={apiKey}&lsPublisherId={Your LinkShare Publisher Id}&format=json
+	https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}
 
 
 ## Coding Style
