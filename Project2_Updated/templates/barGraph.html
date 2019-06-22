@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title> Project 2 - Group 6 </title>
+
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script crossorigin="anonymous" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	  crossorigin="anonymous"></script>
+	
+    <!--<link rel="stylesheet" href="../static/css/style.css">-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   <link rel="stylesheet" href="../static/css/style.css">
+   <link rel="stylesheet" href="../static/css/d3Style.css">
+
+</head>
+<body>
+    <div class="page-background">
+            <div class="container-fluid bg-1 text-center" style="background-color: rgb(49, 148, 148); color: white">
+           
+                    <h3>College Campus Crime vs. Gun Control Laws</h3> 
+            </div>
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default fixed-top">
+                    <div class="container-fluid">
+                            
+                        <div class="navbar-header fixed-top">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false"
+                            aria-controls="navbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
+                            <ul class="nav navbar-nav fixed-top">
+                                <li class="active"><a href="index.html">Summary <span class="sr-only">(current)</span></a></li>
+                            </ul> 
+                            <ul class="nav navbar-nav navbar-right">      
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="baseMap.html">Base map</a>
+                                            </li>
+                                            <li>
+                                                <a href="barGraph.html">Bar Graph</a>
+                                            </li>
+                                            <li>
+                                                <a href="heatMap.html">Heatmap</a>
+                                            </li>
+                                          
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a href="index.html">Methodology</a>
+                                </li>
+                                <li>
+                                    <a href="index.html">Data</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="col-md-12">
+
+            
+                <div class="col-md-12">
+                        
+                    <div class="row">
+                       
+                        
+                        <h1 class="light-green_text">
+                            <b>US College Campus Crime Incidence Reported Per State</b>
+                        </h1>
+                        <div id="plot" ></div>
+                            <p>In 2017, Indiana had the lowest number of crime prevelence on college campus.
+<br>
+<br>
+<br>
+<br>
+                <h1 class="light-green_text" style="color: rgb(78, 78, 88)">
+        <b>Property Crime Is The Most Prevelent Type of Crime On College Campuses </b>
+    </h1>
+    <br>
+<br>
+
+                        <div id="dataviz" style="padding-left: 25px"></div>
+                                               </div>
+                </div>
+                <div class="col-md-11 ">
+                        <div class="article" style="padding-left:100px">
+                                <p>The data shows a positive correlations between poverty and lack of healthcare. Similar trends were also observed
+                                  between lack of healthcare and percentages of the population categorized as obese and smokers.
+                                </p>
+                      
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+                                  quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                                  ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                              </div>
+                    <div class="row">
+                        <h1 class="light-green_text">
+                            <b>Visualizations</b>
+                        </h1>
+                        <hr>
+                        
+                        <a href="baseMap.html">
+                            <img alt="Base Map" class="std_img" src="baseMap.png"></img>
+                        </a>
+                        <a href="barGraph.html">
+                            <img alt="Bar Graph" class="std_img" src="barGraph.png"></img>
+                        </a>
+                        <a href="heatMap.html">
+                            <img alt="Heatmap" class="std_img" src="heatMap.png"></img>
+                        </a>
+                    
+                        </hr>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="container-fluid"> 
+    <footer style="background-color: white">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+            <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+             integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+             crossorigin=""></script>
+               <!-- D3 -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+            <!-- MomentJS -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+          
+            <!-- Leaflet JavaScript -->
+            <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+            integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+            crossorigin=""></script>
+            <!-- polyfill.io is library for using newer JavaScript features in older browers (such as Object.assign) -->
+            <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  
+            <!-- API Key -->
+            <script type="text/javascript" src="../static/js/stateSummedCrimeData.js"></script>
+            <script type="text/javascript" src="../static/js/config.js"></script>
+            <script type="text/javascript" src="../static/js/logic_bar.js"></script>
+            <script type="text/javascript" src="../static/js/logic_bubble.js"></script>
+
+
+          
+    </footer>
+</div>
+</html>
