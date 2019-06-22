@@ -40,19 +40,23 @@ INSERT YOUR GRAPHIC HERE](https://)]()
 
 
 ### Bar Chart
-[![INSERT YOUR GRAPHIC HERE](https://)]()
+[![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/barGraph.png)]()
+
 
 
 ### Heat Map
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/heatMap.png)]()
 
 
+
 ### Bubble Map
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/bubbleMap.png)]()
 
 
+
 ### Base Map 
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/baseMap.png)]()
+
 
 
 
