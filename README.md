@@ -44,7 +44,7 @@ INSERT YOUR GRAPHIC HERE](https://)]()
 
 
 ### Heat Map
-[![INSERT YOUR GRAPHIC HERE](https://)]()
+[![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/heatMap.png)]()
 
 
 ### Bubble Map
@@ -83,4 +83,4 @@ Mabel Gutierrez- Initial Work - [SMU Team Crime- Project 2](https://github.com/m
 
 Velindia Lucas - Initial Work - [SMU Team Crime- Project 2](https://github.com/chele0630)
 
-Zeinab  - Initial Work - [SMU Team Crime- Project 2](https://github.com/Massudi09)
+Zeinab Massudi - Initial Work - [SMU Team Crime- Project 2](https://github.com/Massudi09)
