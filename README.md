@@ -28,8 +28,12 @@ We will be using campus violence data from https://ope.ed.gov/campussafety to gi
 
 Our primary purpose is to gather data using our sources determine if there is a correlation between college campus violence and gun control laws in US states.   After evaluating this information, we will be able to determine the story being told through the data and answer our inital question.
 
+
 ## Methodology
 
+We used data from https://ope.ed.gov/campussafety to determine the number of crimes occurring on US college campuses.  Our data source contained null values and information for campuses located internationally.  We are only considering US college campuses, and cleaned the data accordingly using the Javascript programming language.  We then used this information to calculate the total crimes for each campus according to the state it is located in. This data was used to create the bar graph showing the total crimes by state for years 2015-2017.  It was also used to create a heat map, using an API call to https://www.mapbox.com, showing which US states have the lowest to the highest crime rates on college campuses.  A bubble map was created to show the overall crime rate for each US college campus in comparison to the campus population. 
+
+Python coding language was used along with Beautiful Soup was used to scrape data from https://www.gunstocarry.com/gun-laws-state/ and https://www.50states.com/abbreviations.htm.  The first website was used to get information on state gun control ratings and the second website was used to get state abbreviations.  This information was merged together using the Javascript programming language to create a data source that could be used to easily display data in our visualizations.  A base map was created using an API call to the website: https://www.mapbox.com/.  This map includes markers for each state and its gun control rating.
 
 
 
