@@ -76,6 +76,9 @@ The bubble map shows a relationship between population and crime rate.  The larg
 The heat map shows most crimes being committed in states with larger populations such as Texas, California and New York.  However, when using our base map to look at the gun control laws of each of the states, they vary from strict (California) to open (Texas).  Similarly, states with smaller populations such as Wyoming, Montana, and South Dakota also have the lowest incidents of college campus crimes.  Montana has more open gun laws, while South Dakota & Montana are slightly more restrictive.  
 The purpose of our research was to determine if there is a correlation between crimes on college campuses and gun control laws in US states.  Based on our research and findings we can conclude that there is not a correlation between college campus crimes and gun control laws.
 
+## Next steps
+
+A future feature we would like to have is to have the markers change color based on the Gun Law ratings.
 
 ## API Calls
 
