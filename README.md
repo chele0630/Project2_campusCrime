@@ -7,6 +7,7 @@
 
 * [Team Crime Project 2](#team-crime-project2)
 * [Purpose of the Analysis](#purpose-of-the-analysis)
+* [Methodology](#methodology)
 * [Key Documents](#key-documents)
 * [Findings](#findings)
 * [Coding Style](#coding-style)
@@ -26,6 +27,10 @@ We will be using campus violence data from https://ope.ed.gov/campussafety to gi
 ## Purpose of the Analysis
 
 Our primary purpose is to gather data using our sources determine if there is a correlation between college campus violence and gun control laws in US states.   After evaluating this information, we will be able to determine the story being told through the data and answer our inital question.
+
+## Methodology
+
+
 
 
 ## Key Documents
