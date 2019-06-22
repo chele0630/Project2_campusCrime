@@ -32,7 +32,7 @@ Our primary purpose is to gather data using our sources determine if there is a 
 The following data sets were used throughout the project.
 
 ### Campus Crime Data
-[![INSERT YOUR GRAPHIC HERE]()]()
+[![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/crimeDataSum.png)]()
 
 ### Gun Control Data
 [![INSERT YOUR GRAPHIC HERE](https://)]()
