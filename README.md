@@ -63,9 +63,16 @@ The following data sets were used throughout the project.
 
 *Findings here
 
+## API Calls
+
+* Map API call:
+	http://api.walmartlabs.com/v1/items/12417832?apiKey={apiKey}&lsPublisherId={Your LinkShare Publisher Id}&format=json
+
+
 ## Coding Style
 
-Jupyter notebooks was used. The list of dependencies are as follows:
+Javascript programming language was used.
+Python programming language was used, the list of dependencies are as follows:
 
 ```sh
 import os
