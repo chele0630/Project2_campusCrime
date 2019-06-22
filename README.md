@@ -71,7 +71,11 @@ The following data sets were used throughout the project.
 
 ## Findings
 
-*Findings here
+Based on the information in the bar graph, some states have had an increase in college campus crime from 2015-2017, some have stayed about the same and few have decreased.  Our data would be more telling if our information went back a little further and included a larger span of time, such as a ten-year time frame.  This would give a more accurate picture of trends over time.  
+The bubble map shows a relationship between population and crime rate.  The larger the population of the state, the higher the crime rate overall and vice versa.  This is also supported by our heat map.  The states with larger populations are a darker shade of red indicating that there is a larger number of campus crimes committed there.  Likewise, as the color shade progresses to a lighter shade of yellow, it indicates a lower number of crimes committed on college campuses and a smaller population.
+The heat map shows most crimes being committed in states with larger populations such as Texas, California and New York.  However, when using our base map to look at the gun control laws of each of the states, they vary from strict (California) to open (Texas).  Similarly, states with smaller populations such as Wyoming, Montana, and South Dakota also have the lowest incidents of college campus crimes.  Montana has more open gun laws, while South Dakota & Montana are slightly more restrictive.  
+The purpose of our research was to determine if there is a correlation between crimes on college campuses and gun control laws in US states.  Based on our research and findings we can conclude that there is not a correlation between college campus crimes and gun control laws.
+
 
 ## API Calls
 
