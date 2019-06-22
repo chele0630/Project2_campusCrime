@@ -38,7 +38,7 @@ The following data sets were used throughout the project.
 [![INSERT YOUR GRAPHIC HERE](https://)]()
 
 
-### Bar Chart
+### Bar Chart of Yearly Total College Campus Crimes by State
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/barGraph.png)]()
 
 
@@ -48,7 +48,7 @@ The following data sets were used throughout the project.
 
 
 
-### Bubble Map of 
+### Bubble Map of Overall Crime Rate by Student Population
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/bubbleMap.png)]()
 
 
