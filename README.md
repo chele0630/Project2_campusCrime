@@ -31,7 +31,7 @@ Our primary purpose is to gather data using our sources determine if there is a 
 
 The following data sets were used throughout the project.
 
-### Campus Crime Data
+### Campus Crime Data by State
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/crimeDataSum.png)]()
 
 ### Gun Control Data
@@ -43,17 +43,17 @@ The following data sets were used throughout the project.
 
 
 
-### Heat Map
+### Heat Map of College Campus Crimes by State
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/heatMap.png)]()
 
 
 
-### Bubble Map
+### Bubble Map of 
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/bubbleMap.png)]()
 
 
 
-### Base Map 
+### Base Map of Gun Control Laws by State
 [![INSERT YOUR GRAPHIC HERE](https://github.com/chele0630/Project2_campusCrime/blob/master/Project2_Updated/static/img/baseMap.png)]()
 
 
